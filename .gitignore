@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env*.local
+*.env
+
+# Node.js / npm / yarn
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+frontend/.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # Optional: some prefer to commit it, some don't. Adding for now.
+backend/package-lock.json
+frontend/package-lock.json
+
+
+# Python
+ai-services/.venv/
+ai-services/__pycache__/
+ai-services/*.py[cod]
+ai-services/*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/ 
