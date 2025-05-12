@@ -128,4 +128,4 @@ Failure to configure this correctly will result in epics being created, but stor
     -   Double-check all `JIRA_*` environment variables in your `.env` file.
     -   Verify the Jira Project Key.
     -   Ensure the user associated with `JIRA_API_TOKEN` has permissions to create/edit issues in the target project.
-    -   Verify the "Epic Link" custom field ID or `parent` field usage in `jiraService.js` as per your Jira project type. 
+    -   Verify the "Epic Link" custom field ID or `parent` field usage in `jiraService.js` as per your Jira project type.
